@@ -18,6 +18,45 @@
 	width: 100%;
 }
 
+/*缩小按钮*/
+.btn-app-sm {
+  border-radius: 3px;
+  position: relative;
+  padding: 15px 5px;
+  margin: 0 0 10px 10px;
+  min-width: 40px;
+  height: 30px;
+  text-align: center;
+  color: #666;
+  border: 1px solid #ddd;
+  background-color: #f4f4f4;
+  font-size: 12px;
+}
+.btn-app-sm > .fa,
+.btn-app-sm > .glyphicon,
+.btn-app-sm > .ion {
+  font-size: 20px;
+  display: block;
+}
+.btn-app-sm:hover {
+  background: #f4f4f4;
+  color: #444;
+  border-color: #aaa;
+}
+.btn-app-sm:active,
+.btn-app-sm:focus {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.btn-app-sm > .badge {
+  position: absolute;
+  top: -3px;
+  right: -10px;
+  font-size: 10px;
+  font-weight: 400;
+}
+
 .back-to-top {
 	position:fixed;
 	bottom:60px;

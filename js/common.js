@@ -118,7 +118,7 @@ function pageFunction(to, map){
                 var options = {
             	    currentPage: currentPage,    
             	    totalPages: totalPages,    
-            	    size:"large",    
+            	    //size:"large",    
             	    bootstrapMajorVersion: 3,    
             	    alignment:"center",    
             	    numberOfPages:5,
